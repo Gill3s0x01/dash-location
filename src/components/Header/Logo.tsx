@@ -6,6 +6,7 @@ export function Logo() {
       fontWeight='bold'
       letterSpacing='tight'
       w='64'
+      mb='8'
     >
       DashLocation
       <Text as='span' color='pink.500' ml='1' fontSize='6xl'>

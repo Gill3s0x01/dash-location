@@ -3,7 +3,13 @@ import { PaginationItems } from './PaginationItems'
 
 export function Pagination() {
   return (
-    <HStack mt='8' spacing='6' justify='space-between' align='center'>
+    <Stack
+      direction={['column', 'row']}
+      mt='8'
+      spacing='6'
+      justify='space-between'
+      align='center'
+    >
       <Box>
         <strong>0</strong> - <strong>25</strong> de <strong>100</strong>
       </Box>
@@ -13,6 +19,6 @@ export function Pagination() {
         <PaginationItems number={3} />
         <PaginationItems number={4} />
       </Stack>
-    </HStack>
+    </Stack>
   )
 }

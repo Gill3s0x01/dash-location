@@ -15,7 +15,15 @@ export function Header() {
   })
 
   return (
-    <Flex as='header' w='100%' maxW={1480} h='20' mt='4' align='center' px='6'>
+    <Flex
+      as='header'
+      w='100%'
+      maxW={1480}
+      h='20'
+      mt='4'
+      align='center'
+      px={['2', '6']}
+    >
       {!isWideVersion && (
         <IconButton
           aria-label='Open Navigation'
